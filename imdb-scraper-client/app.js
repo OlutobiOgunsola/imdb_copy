@@ -2,6 +2,8 @@ const form = document.querySelector("form");
 const searchInput = document.querySelector("input");
 const resultsList = document.querySelector("#results");
 
+let hello
+
 const BASE_URL = "http://localhost:3000";
 
 const formSubmitted = e => {
